@@ -10,7 +10,7 @@ import UIKit
 
 @available(iOS 9.0, *)
 extension UIStackView {
-    func set(_ axis: NSLayoutConstraint.Axis, alignment: UIStackView.Alignment, distribution: UIStackView.Distribution, spacing: CGFloat = 0) {
+    public func set(_ axis: NSLayoutConstraint.Axis, alignment: UIStackView.Alignment, distribution: UIStackView.Distribution, spacing: CGFloat = 0) {
         self.axis = axis
         self.alignment = alignment
         self.distribution = distribution

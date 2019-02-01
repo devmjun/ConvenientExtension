@@ -12,7 +12,7 @@ extension String {
     /**
      Estimates the height of the UILable based on the string
      */
-    func height(constraintedWidth width: CGFloat, font: UIFont) -> CGFloat {
+    public func height(constraintedWidth width: CGFloat, font: UIFont) -> CGFloat {
         let label =  UILabel(frame: CGRect(x: 0, y: 0, width: width, height: .greatestFiniteMagnitude))
         label.numberOfLines = 0
         label.text = self
@@ -24,7 +24,7 @@ extension String {
     /**
      Estimates the Width of the UILable based on the string
      */
-    func width(constraintHeight: CGFloat = .leastNormalMagnitude, font: UIFont) -> CGFloat {
+    public func width(constraintHeight: CGFloat = .leastNormalMagnitude, font: UIFont) -> CGFloat {
         let label =  UILabel(frame: CGRect(x: 0, y: 0, width: .greatestFiniteMagnitude, height: constraintHeight))
         label.numberOfLines = 1
         label.text = self

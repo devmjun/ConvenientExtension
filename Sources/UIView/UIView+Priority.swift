@@ -9,12 +9,12 @@
 import UIKit
 
 extension UIView {
-    enum ContentPriority {
+    public enum ContentPriority {
         case hugging(priority: UILayoutPriority, axis: NSLayoutConstraint.Axis)
         case compressionResitance(priority: UILayoutPriority, axis: NSLayoutConstraint.Axis)
     }
     
-    func set(priority: [ContentPriority]) {
+    public func set(priority: [ContentPriority]) {
         priority.forEach { [weak self] in
             switch $0 {
             case .hugging(let priority, let axis):

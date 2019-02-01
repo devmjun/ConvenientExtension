@@ -1,6 +1,6 @@
 # ConvenientExtension
 
----
+![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg) [![pod compatible](https://img.shields.io/cocoapods/v/ConvenientExtension?style=flat)](https://cocoapods.org/pods/ConvenientExtension) 
 
 ## Summary 
 
@@ -11,11 +11,11 @@ Purpose is that private extension for me and  it requires iOS 8 or above and is 
 ### CocoaPods
 
 ```ruby
-pod 'ConvenientExtension', '~> 0.1.0'
+pod 'ConvenientExtension', '~> 0.2.0'
 ```
 
 ### Carthage
 
 ```ogdl
-github "devmjun/ConvenientExtension" ~> 0.1.0
+github "devmjun/ConvenientExtension" ~> 0.2.0
 ```

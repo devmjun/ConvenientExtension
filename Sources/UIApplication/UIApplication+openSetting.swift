@@ -9,7 +9,7 @@
 import Foundation
 
 extension UIApplication {
-    func openSettings() {
+    public func openSettings() {
         guard let settingURL = URL(string: UIApplication.openSettingsURLString) else {
             return
         }

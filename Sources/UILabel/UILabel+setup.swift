@@ -9,7 +9,7 @@
 import UIKit
 
 extension UILabel {
-    func setup(textColor color: UIColor, textAlignment alignment: NSTextAlignment, numberOfLines lines: Int, font customFont: UIFont = UIFont.preferredFont(forTextStyle: .body)) {
+    public func setup(textColor color: UIColor, textAlignment alignment: NSTextAlignment, numberOfLines lines: Int, font customFont: UIFont = UIFont.preferredFont(forTextStyle: .body)) {
         textColor = color
         textAlignment = alignment
         numberOfLines = lines

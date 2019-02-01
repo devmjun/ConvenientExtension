@@ -7,7 +7,7 @@
 //
 
 extension UIApplication {
-    static var statusBarHeight = shared.statusBarFrame.height
+    public static var statusBarHeight = shared.statusBarFrame.height
 }
 
 

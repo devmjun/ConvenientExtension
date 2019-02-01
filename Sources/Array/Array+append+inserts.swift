@@ -9,11 +9,11 @@
 import Foundation
 
 extension Array {
-    mutating func appends(elements: Array) {
+    public mutating func appends(elements: Array) {
         elements.forEach { self.append($0) }
     }
     
-    mutating func inserts(_ elements: Array, at i: Int, reverse: Bool = true) {
+    public mutating func inserts(_ elements: Array, at i: Int, reverse: Bool = true) {
         switch reverse {
         case true:
             elements.reversed().forEach { self.insert($0, at: i) }

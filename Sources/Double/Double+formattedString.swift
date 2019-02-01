@@ -8,7 +8,7 @@
 
 import UIKit
 extension Double {
-    func formattedString() -> String {
+    public func formattedString() -> String {
         return String(format: "%.2f", self)
     }
 }

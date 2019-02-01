@@ -8,7 +8,7 @@
 import UIKit
 
 extension CALayer {
-    func shadow(color: CGColor, offset: CGSize, radius: CGFloat, opacity: Float) {
+    public func shadow(color: CGColor, offset: CGSize, radius: CGFloat, opacity: Float) {
         shadowColor = color
         shadowOffset = offset
         shadowRadius = radius
