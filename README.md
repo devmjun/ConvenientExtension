@@ -1,6 +1,6 @@
 # ConvenientExtension
 
-![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg) [![pod compatible](https://img.shields.io/cocoapods/v/ConvenientExtension?style=flat)](https://cocoapods.org/pods/ConvenientExtension) 
+![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg) [![pod compatible](https://img.shields.io/cocoapods/v/ConvenientExtension.svg?style=flat)](https://cocoapods.org/pods/ConvenientExtension) 
 
 ## Summary 
 
