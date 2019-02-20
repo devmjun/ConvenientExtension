@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0458DC96221D6AE9007835EA /* UIColor+generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458DC95221D6AE9007835EA /* UIColor+generate.swift */; };
+		0458DC99221D6B8C007835EA /* Data+JSONDecode+Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458DC98221D6B8C007835EA /* Data+JSONDecode+Encode.swift */; };
 		048D89A522017144003C98B3 /* ConvenientExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 048D89A322017144003C98B3 /* ConvenientExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		048D89AE2201729C003C98B3 /* UIScreen+Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D89AD2201729C003C98B3 /* UIScreen+Dimension.swift */; };
 		048D89B1220172BF003C98B3 /* UIApplication+StatusBarHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D89B0220172BF003C98B3 /* UIApplication+StatusBarHeight.swift */; };
@@ -44,6 +46,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0458DC95221D6AE9007835EA /* UIColor+generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+generate.swift"; sourceTree = "<group>"; };
+		0458DC98221D6B8C007835EA /* Data+JSONDecode+Encode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+JSONDecode+Encode.swift"; sourceTree = "<group>"; };
 		048D89A022017144003C98B3 /* ConvenientExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConvenientExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		048D89A322017144003C98B3 /* ConvenientExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConvenientExtension.h; sourceTree = "<group>"; };
 		048D89A422017144003C98B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +97,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0458DC94221D6ADE007835EA /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				0458DC95221D6AE9007835EA /* UIColor+generate.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		0458DC97221D6B82007835EA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0458DC98221D6B8C007835EA /* Data+JSONDecode+Encode.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		048D899622017144003C98B3 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +132,8 @@
 		048D89A222017144003C98B3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				0458DC97221D6B82007835EA /* Data */,
+				0458DC94221D6ADE007835EA /* UIColor */,
 				048D8A0022017AB0003C98B3 /* Int */,
 				048D89F6220178F3003C98B3 /* Optional */,
 				048D89F122017820003C98B3 /* UIImage */,
@@ -416,12 +438,14 @@
 				048D89FF22017A60003C98B3 /* Character+Ascii.swift in Sources */,
 				048D89EE220177BA003C98B3 /* UIView+LayoutAnchor.swift in Sources */,
 				048D89E92201776E003C98B3 /* UIStackView+AddArrangedSubviews.swift in Sources */,
+				0458DC96221D6AE9007835EA /* UIColor+generate.swift in Sources */,
 				048D8A0222017ABA003C98B3 /* Int+HandyExtension.swift in Sources */,
 				048D89C222017421003C98B3 /* Array+append+inserts.swift in Sources */,
 				048D89EC2201779D003C98B3 /* UIView+AddSubviews.swift in Sources */,
 				048D89AE2201729C003C98B3 /* UIScreen+Dimension.swift in Sources */,
 				048D89D222017505003C98B3 /* UIScrollView+set.swift in Sources */,
 				048D89E22201764E003C98B3 /* String+EstimatedHeightAndWidth.swift in Sources */,
+				0458DC99221D6B8C007835EA /* Data+JSONDecode+Encode.swift in Sources */,
 				048D89F322017828003C98B3 /* UIImage+Resize.swift in Sources */,
 				048D89C522017441003C98B3 /* Double+formattedString.swift in Sources */,
 				048D89F522017866003C98B3 /* Array+At.swift in Sources */,

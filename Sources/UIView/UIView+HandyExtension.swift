@@ -88,9 +88,9 @@ extension UIView {
         set { frame.size = newValue }
     }
     
-//    @IBInspectable
-//    public var cornerRadius: CGFloat {
-//        get { return layer.cornerRadius }
-//        set { layer.cornerRadius = newValue }
-//    }
+    @IBInspectable
+    public var cornerRadiusValue: CGFloat {
+        get { return layer.cornerRadius }
+        set { layer.cornerRadius = newValue }
+    }
 }
