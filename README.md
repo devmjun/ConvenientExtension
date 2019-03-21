@@ -11,11 +11,11 @@ Purpose is that private extension for me and  it requires iOS 8 or above and is 
 ### CocoaPods
 
 ```ruby
-pod 'ConvenientExtension', '~> 0.2.3'
+pod 'ConvenientExtension', '~> 0.2.4'
 ```
 
 ### Carthage
 
 ```ogdl
-github "devmjun/ConvenientExtension" ~> 0.2.3
+github "devmjun/ConvenientExtension" ~> 0.2.4
 ```
