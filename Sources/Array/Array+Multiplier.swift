@@ -9,7 +9,7 @@
 import UIKit
 
 public extension Array {
-    public static func *(lhs: Array<Element>, rhs: Int) -> Array<Element> {
+    static func *(lhs: Array<Element>, rhs: Int) -> Array<Element> {
         var copy = Array<Element>()
         (0..<rhs).forEach { _ in copy += lhs }
         return copy
