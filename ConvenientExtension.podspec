@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "ConvenientExtension"
-  s.version               = "0.2.4"
+  s.version               = "0.3.0"
   s.summary               = "Private Extension"
 
   s.homepage              = "https://github.com/devmjun/ConvenientExtension"
@@ -14,8 +14,6 @@ Pod::Spec.new do |s|
   s.exclude_files         = "Sources/**/*.plist"
 
   s.ios.deployment_target = "8.0"
-  s.swift_version         = "4.2"
-  s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.2" }
-
+  s.swift_version         = "5.0"
 end
 
