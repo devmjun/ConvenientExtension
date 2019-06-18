@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0458DC96221D6AE9007835EA /* UIColor+generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458DC95221D6AE9007835EA /* UIColor+generate.swift */; };
 		0458DC99221D6B8C007835EA /* Data+JSONDecode+Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458DC98221D6B8C007835EA /* Data+JSONDecode+Encode.swift */; };
+		04819F7A22B8881300A1BCF4 /* CGFlat+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04819F7922B8881300A1BCF4 /* CGFlat+Rounded.swift */; };
 		048D89A522017144003C98B3 /* ConvenientExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 048D89A322017144003C98B3 /* ConvenientExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		048D89AE2201729C003C98B3 /* UIScreen+Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D89AD2201729C003C98B3 /* UIScreen+Dimension.swift */; };
 		048D89B1220172BF003C98B3 /* UIApplication+StatusBarHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D89B0220172BF003C98B3 /* UIApplication+StatusBarHeight.swift */; };
@@ -52,6 +53,7 @@
 /* Begin PBXFileReference section */
 		0458DC95221D6AE9007835EA /* UIColor+generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+generate.swift"; sourceTree = "<group>"; };
 		0458DC98221D6B8C007835EA /* Data+JSONDecode+Encode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+JSONDecode+Encode.swift"; sourceTree = "<group>"; };
+		04819F7922B8881300A1BCF4 /* CGFlat+Rounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFlat+Rounded.swift"; sourceTree = "<group>"; };
 		048D89A022017144003C98B3 /* ConvenientExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConvenientExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		048D89A322017144003C98B3 /* ConvenientExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConvenientExtension.h; sourceTree = "<group>"; };
 		048D89A422017144003C98B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				048D89DD220175CC003C98B3 /* CGFloat+variationIn.swift */,
+				04819F7922B8881300A1BCF4 /* CGFlat+Rounded.swift */,
 			);
 			path = CGFloat;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 				04EAF59222436C040085783D /* String+ToInt.swift in Sources */,
 				048D89F022017811003C98B3 /* NSLayoutConstraint+Active.swift in Sources */,
 				048D89D522017532003C98B3 /* CGSize+Add.swift in Sources */,
+				04819F7A22B8881300A1BCF4 /* CGFlat+Rounded.swift in Sources */,
 				048D89CD220174C5003C98B3 /* CALayer+shadow.swift in Sources */,
 				048D89D722017572003C98B3 /* UIStackView+Clear.swift in Sources */,
 				048D89B72201731D003C98B3 /* UILabel+setup.swift in Sources */,
