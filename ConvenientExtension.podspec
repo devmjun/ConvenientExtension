@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "ConvenientExtension"
-  s.version               = "0.3.4"
+  s.version               = "0.3.5"
   s.summary               = "Private Extension"
 
   s.homepage              = "https://github.com/devmjun/ConvenientExtension"
