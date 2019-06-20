@@ -21,7 +21,8 @@ extension Int: Scalable {
         let copy = Double(self)
         let standardWidth: Double = 375.0 // iPhone6s Width
         let ratio = (copy / standardWidth)
-        return CGFloat(standardWidth * ratio).rounded()
+        let currentWidth = Double(UIScreen.mainWidth)
+        return CGFloat(currentWidth * ratio).rounded()
     }
     
     /// dynamic value
@@ -30,7 +31,9 @@ extension Int: Scalable {
         let copy = Double(self)
         let standardHeight: Double = 667.0 // iPhone6s Height
         let ratio = (copy / standardHeight)
-        return CGFloat(standardHeight * ratio).rounded()
+        let currentHeight = Double(UIScreen.mainHeight)
+        
+        return CGFloat(currentHeight * ratio).rounded()
     }
 }
 
@@ -41,7 +44,8 @@ extension CGFloat: Scalable {
         let copy = Double(self)
         let standardWidth: Double = 375.0 // iPhone6s Width
         let ratio = (copy / standardWidth)
-        return CGFloat(standardWidth * ratio).rounded()
+        let currentWidth = Double(UIScreen.mainWidth)
+        return CGFloat(currentWidth * ratio).rounded()
     }
     
     /// dynamic value
@@ -50,6 +54,8 @@ extension CGFloat: Scalable {
         let copy = Double(self)
         let standardHeight: Double = 667.0 // iPhone6s Height
         let ratio = (copy / standardHeight)
-        return CGFloat(standardHeight * ratio).rounded()
+        let currentHeight = Double(UIScreen.mainHeight)
+        
+        return CGFloat(currentHeight * ratio).rounded()
     }
 }
