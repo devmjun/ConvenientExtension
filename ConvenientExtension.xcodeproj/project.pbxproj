@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044BEB7522BB251600474A70 /* Scalable+CGFloat+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BEB7422BB251600474A70 /* Scalable+CGFloat+Int.swift */; };
 		0458DC96221D6AE9007835EA /* UIColor+generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458DC95221D6AE9007835EA /* UIColor+generate.swift */; };
 		0458DC99221D6B8C007835EA /* Data+JSONDecode+Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458DC98221D6B8C007835EA /* Data+JSONDecode+Encode.swift */; };
 		04819F7A22B8881300A1BCF4 /* CGFlat+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04819F7922B8881300A1BCF4 /* CGFlat+Rounded.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044BEB7422BB251600474A70 /* Scalable+CGFloat+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scalable+CGFloat+Int.swift"; sourceTree = "<group>"; };
 		0458DC95221D6AE9007835EA /* UIColor+generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+generate.swift"; sourceTree = "<group>"; };
 		0458DC98221D6B8C007835EA /* Data+JSONDecode+Encode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+JSONDecode+Encode.swift"; sourceTree = "<group>"; };
 		04819F7922B8881300A1BCF4 /* CGFlat+Rounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFlat+Rounded.swift"; sourceTree = "<group>"; };
@@ -300,6 +302,7 @@
 			children = (
 				048D89DD220175CC003C98B3 /* CGFloat+variationIn.swift */,
 				04819F7922B8881300A1BCF4 /* CGFlat+Rounded.swift */,
+				044BEB7422BB251600474A70 /* Scalable+CGFloat+Int.swift */,
 			);
 			path = CGFloat;
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044BEB7522BB251600474A70 /* Scalable+CGFloat+Int.swift in Sources */,
 				048D89C822017461003C98B3 /* UINavigationController+Transparent.swift in Sources */,
 				04EAF59222436C040085783D /* String+ToInt.swift in Sources */,
 				048D89F022017811003C98B3 /* NSLayoutConstraint+Active.swift in Sources */,
