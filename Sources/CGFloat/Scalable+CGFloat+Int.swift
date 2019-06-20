@@ -20,8 +20,8 @@ extension Int: Scalable {
         
         let copy = Double(self)
         let standardWidth: Double = 375.0 // iPhone6s Width
-        let ratio = CGFloat((copy / standardWidth))
-        return (standardWidth * ratio).rounded()
+        let ratio = (copy / standardWidth)
+        return CGFloat(standardWidth * ratio).rounded()
     }
     
     /// dynamic value
@@ -29,8 +29,8 @@ extension Int: Scalable {
     public var dynamicHeight: CGFloat {
         let copy = Double(self)
         let standardHeight: Double = 667.0 // iPhone6s Height
-        let ratio = CGFloat(copy / standardHeight)
-        return (standardWidth * ratio).rounded()
+        let ratio = (copy / standardHeight)
+        return CGFloat(standardHeight * ratio).rounded()
     }
 }
 
@@ -40,8 +40,8 @@ extension CGFloat: Scalable {
     public var dynamicWidth: CGFloat {
         let copy = Double(self)
         let standardWidth: Double = 375.0 // iPhone6s Width
-        let ratio = CGFloat(copy / standardWidth)
-        return (standardWidth * ratio).rounded()
+        let ratio = (copy / standardWidth)
+        return CGFloat(standardWidth * ratio).rounded()
     }
     
     /// dynamic value
@@ -49,7 +49,7 @@ extension CGFloat: Scalable {
     public var dynamicHeight: CGFloat {
         let copy = Double(self)
         let standardHeight: Double = 667.0 // iPhone6s Height
-        let ratio = CGFloat(copy / standardHeight)
-        return (standardWidth * ratio).rounded()
+        let ratio = (copy / standardHeight)
+        return CGFloat(standardHeight * ratio).rounded()
     }
 }
