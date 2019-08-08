@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIDevice {
+public extension UIDevice {
     /// iPhoneX series
     @available(iOS 11.0, *)
     static var bottomNotch: CGFloat {
