@@ -150,6 +150,8 @@ extension UIView {
   
   public func equalToSuperView() -> Self {
     guard let superView = superview else {
+      fatalError("This layout is not configured")
+//      print("This layout is not configured")
       return self
     }
     return topAnchor(to: superView.topAnchor)
