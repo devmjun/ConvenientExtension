@@ -150,8 +150,7 @@ extension UIView {
   
   public func equalToSuperView() -> Self {
     guard let superView = superview else {
-      fatalError("This layout is not configured")
-//      print("This layout is not configured")
+      print("-----------This layout is not configured----------(Cocoapod에서 trunk로 push 발행시 guard 문에서 assert, fatalError 사용하면 알수 없는 오류 발생.. 임시로 superView가 없는 상황일때는 해당 Log로 판단 ")
       return self
     }
     return topAnchor(to: superView.topAnchor)
