@@ -50,6 +50,7 @@
 		04EAF59522436C990085783D /* KeywordObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAF59422436C990085783D /* KeywordObserver.swift */; };
 		04EAF59722436CBB0085783D /* MJObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAF59622436CBB0085783D /* MJObservable.swift */; };
 		04EAF59922436D330085783D /* Array+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAF59822436D330085783D /* Array+UIViewController.swift */; };
+		04EF1BFF236ACE9E00F251AD /* UIStoryboard+Initialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF1BFE236ACE9E00F251AD /* UIStoryboard+Initialize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		04EAF59422436C990085783D /* KeywordObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordObserver.swift; sourceTree = "<group>"; };
 		04EAF59622436CBB0085783D /* MJObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJObservable.swift; sourceTree = "<group>"; };
 		04EAF59822436D330085783D /* Array+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+UIViewController.swift"; sourceTree = "<group>"; };
+		04EF1BFE236ACE9E00F251AD /* UIStoryboard+Initialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Initialize.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 		048D89A222017144003C98B3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				04EF1BFD236ACE8D00F251AD /* UIStoryboard */,
 				041088E522FC1B39001AB1F3 /* UIDevice */,
 				04EAF59322436C610085783D /* Services */,
 				0458DC97221D6B82007835EA /* Data */,
@@ -386,6 +389,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		04EF1BFD236ACE8D00F251AD /* UIStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				04EF1BFE236ACE9E00F251AD /* UIStoryboard+Initialize.swift */,
+			);
+			path = UIStoryboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -477,6 +488,7 @@
 				048D89B72201731D003C98B3 /* UILabel+setup.swift in Sources */,
 				048D89BC22017397003C98B3 /* UIApplication+openSetting.swift in Sources */,
 				048D89FF22017A60003C98B3 /* Character+Ascii.swift in Sources */,
+				04EF1BFF236ACE9E00F251AD /* UIStoryboard+Initialize.swift in Sources */,
 				048D89EE220177BA003C98B3 /* UIView+LayoutAnchor.swift in Sources */,
 				048D89E92201776E003C98B3 /* UIStackView+AddArrangedSubviews.swift in Sources */,
 				04EAF59722436CBB0085783D /* MJObservable.swift in Sources */,
