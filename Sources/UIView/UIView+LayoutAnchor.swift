@@ -152,10 +152,7 @@ extension UIView {
   public func equalToSuperView() -> Self {
     guard let superView = self.superview else {
       fatalError("superView is Not exist, you should check Superview correctly delivere")
-//      return self
-//      assert(false, "superView is Not exist, you should check Superview correctly delivere")
     }
-    let superView = self.superview!
     return topAnchor(to: superView.topAnchor)
       .bottomAnchor(to: superView.bottomAnchor)
       .leadingAnchor(to: superView.leadingAnchor)
