@@ -158,7 +158,6 @@ extension UIView {
       .leadingAnchor(to: superView.leadingAnchor)
       .trailingAnchor(to: superView.trailingAnchor)
   }
-  
   /**
    Don't forget useing it when you develop programmatically UI
    */
