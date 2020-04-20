@@ -9,16 +9,17 @@
 import UIKit
 
 extension UILabel {
-    public func setup(textColor color: UIColor, textAlignment alignment: NSTextAlignment, numberOfLines lines: Int, font customFont: UIFont = UIFont.preferredFont(forTextStyle: .body)) {
-        textColor = color
-        textAlignment = alignment
-        numberOfLines = lines
-        if #available(iOS 11.0, *) {
-            font = UIFontMetrics.default.scaledFont(for: customFont)
-        } else {
-            font = customFont
-        }
-    }
+  public func setup(
+    textColor color: UIColor,
+    textAlignment alignment: NSTextAlignment,
+    numberOfLines lines: Int,
+    font customFont: UIFont = UIFont.preferredFont(forTextStyle: .body)
+  ) {
+    textColor = color
+    textAlignment = alignment
+    numberOfLines = lines
+    font = customFont
+  }
 }
 
 
