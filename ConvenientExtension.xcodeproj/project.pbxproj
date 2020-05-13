@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		041088E722FC1B52001AB1F3 /* UIDevice+Notch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041088E622FC1B52001AB1F3 /* UIDevice+Notch.swift */; };
+		044696D6246BB45D00447BCE /* UIInterfaceOrientation+AVCaptureVideoOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044696D5246BB45D00447BCE /* UIInterfaceOrientation+AVCaptureVideoOrientation.swift */; };
+		044696D8246BBB4D00447BCE /* CGColor+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044696D7246BBB4D00447BCE /* CGColor+UIColor.swift */; };
 		044BEB7522BB251600474A70 /* Scalable+CGFloat+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BEB7422BB251600474A70 /* Scalable+CGFloat+Int.swift */; };
 		0458DC96221D6AE9007835EA /* UIColor+generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458DC95221D6AE9007835EA /* UIColor+generate.swift */; };
 		0458DC99221D6B8C007835EA /* Data+JSONDecode+Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458DC98221D6B8C007835EA /* Data+JSONDecode+Encode.swift */; };
@@ -56,6 +58,8 @@
 
 /* Begin PBXFileReference section */
 		041088E622FC1B52001AB1F3 /* UIDevice+Notch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Notch.swift"; sourceTree = "<group>"; };
+		044696D5246BB45D00447BCE /* UIInterfaceOrientation+AVCaptureVideoOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIInterfaceOrientation+AVCaptureVideoOrientation.swift"; sourceTree = "<group>"; };
+		044696D7246BBB4D00447BCE /* CGColor+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGColor+UIColor.swift"; sourceTree = "<group>"; };
 		044BEB7422BB251600474A70 /* Scalable+CGFloat+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scalable+CGFloat+Int.swift"; sourceTree = "<group>"; };
 		0458DC95221D6AE9007835EA /* UIColor+generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+generate.swift"; sourceTree = "<group>"; };
 		0458DC98221D6B8C007835EA /* Data+JSONDecode+Encode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+JSONDecode+Encode.swift"; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				0458DC95221D6AE9007835EA /* UIColor+generate.swift */,
+				044696D7246BBB4D00447BCE /* CGColor+UIColor.swift */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 			children = (
 				048D89B0220172BF003C98B3 /* UIApplication+StatusBarHeight.swift */,
 				048D89BB22017397003C98B3 /* UIApplication+openSetting.swift */,
+				044696D5246BB45D00447BCE /* UIInterfaceOrientation+AVCaptureVideoOrientation.swift */,
 			);
 			path = UIApplication;
 			sourceTree = "<group>";
@@ -500,6 +506,7 @@
 				048D89BC22017397003C98B3 /* UIApplication+openSetting.swift in Sources */,
 				048D89FF22017A60003C98B3 /* Character+Ascii.swift in Sources */,
 				04EF1BFF236ACE9E00F251AD /* UIStoryboard+Initialize.swift in Sources */,
+				044696D6246BB45D00447BCE /* UIInterfaceOrientation+AVCaptureVideoOrientation.swift in Sources */,
 				048D89EE220177BA003C98B3 /* UIView+LayoutAnchor.swift in Sources */,
 				048D89E92201776E003C98B3 /* UIStackView+AddArrangedSubviews.swift in Sources */,
 				04EAF59722436CBB0085783D /* MJObservable.swift in Sources */,
@@ -525,6 +532,7 @@
 				048D89DE220175CC003C98B3 /* CGFloat+variationIn.swift in Sources */,
 				048D89FC220179BA003C98B3 /* String+HandyExtension.swift in Sources */,
 				048D89CF220174ED003C98B3 /* Array+Multiplier.swift in Sources */,
+				044696D8246BBB4D00447BCE /* CGColor+UIColor.swift in Sources */,
 				048D89BF220173F4003C98B3 /* CALayer+setBorder.swift in Sources */,
 				048D89E722017738003C98B3 /* UIFont+Traits.swift in Sources */,
 				048D89BA22017374003C98B3 /* UIButton+sugar+setup.swift in Sources */,
