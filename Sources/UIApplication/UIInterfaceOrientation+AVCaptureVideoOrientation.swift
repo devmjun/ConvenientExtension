@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-extension UIApplication {
+public extension UIApplication {
   static func avCapturevideoOrientationFromStatusBarOrientation() -> AVCaptureVideoOrientation {
     switch shared.statusBarOrientation {
     case .portrait:

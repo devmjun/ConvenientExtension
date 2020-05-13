@@ -8,68 +8,36 @@
 
 import UIKit
 
-
 public extension CGColor {
-  class var black: CGColor {
-    return UIColor.black.cgColor
-  }
+  class var black: CGColor { UIColor.black.cgColor }
 
-  class var darkGray: CGColor {
-    return UIColor.darkGray.cgColor
-  }
+  class var darkGray: CGColor { UIColor.darkGray.cgColor }
 
-  class var lightGray: CGColor {
-    return UIColor.lightGray.cgColor
-  }
+  class var lightGray: CGColor { UIColor.lightGray.cgColor }
 
-  class var white: CGColor {
-    return UIColor.white.cgColor
-    
-  }
+  class var white: CGColor { UIColor.white.cgColor }
 
-  class var gray: CGColor {
-    return UIColor.gray.cgColor
-  }
+  class var gray: CGColor { UIColor.gray.cgColor }
 
-  class var red: CGColor {
-    return UIColor.red.cgColor
-  }
+  class var red: CGColor { UIColor.red.cgColor }
 
-  class var green: CGColor {
-    return UIColor.green.cgColor
-  }
+  class var green: CGColor { UIColor.green.cgColor }
 
-  class var blue: CGColor {
-    return UIColor.blue.cgColor
-  }
+  class var blue: CGColor { UIColor.blue.cgColor }
 
-  class var cyan: CGColor {
-    return UIColor.cyan.cgColor
-  }
+  class var cyan: CGColor { UIColor.cyan.cgColor }
 
-  class var yellow: CGColor {
-    return UIColor.yellow.cgColor
-  }
+  class var yellow: CGColor { UIColor.yellow.cgColor }
 
-  var magenta: CGColor {
-    return UIColor.magenta.cgColor
-  }
+  class var magenta: CGColor { UIColor.magenta.cgColor }
 
-  var orange: CGColor {
-    return UIColor.orange.cgColor
-  }
+  class var orange: CGColor { UIColor.orange.cgColor }
 
-  class var purple: CGColor {
-    return UIColor.purple.cgColor
-  }
+  class var purple: CGColor { UIColor.purple.cgColor }
 
-  class var brown: CGColor {
-    return UIColor.brown.cgColor
-  }
+  class var brown: CGColor { UIColor.brown.cgColor }
 
-  class var clear: CGColor {
-    return UIColor.clear.cgColor
-  }
+  class var clear: CGColor { UIColor.clear.cgColor }
   
   static func generate(
     rgb: CGFloat,
