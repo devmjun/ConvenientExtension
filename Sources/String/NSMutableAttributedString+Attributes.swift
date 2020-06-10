@@ -9,27 +9,27 @@
 import Foundation
 
 extension NSMutableAttributedString {
-    public enum MutableAttributeType {
-        case source(name: NSAttributedString.Key, value: Any, range: NSRange)
+  public enum MutableAttributeType {
+    case source(name: NSAttributedString.Key, value: Any, range: NSRange)
+  }
+  
+  public func addAttributes(_ sources: MutableAttributeType...) {
+    sources.forEach {
+      guard case .source(let name, let value, let range) = $0 else {
+        return
+      }
+      
+      addAttribute(name, value: value, range: range)
     }
-    
-    public func addAttributes(_ sources: MutableAttributeType...) {
-        sources.forEach {
-            guard case .source(let name, let value, let range) = $0 else {
-                return
-            }
-            
-            addAttribute(name, value: value, range: range)
-        }
+  }
+  
+  public func setAttributes(_ sources: MutableAttributeType...) {
+    sources.forEach {
+      guard case .source(let name, let value, let range) = $0 else {
+        return
+      }
+      removeAttribute(name, range: range)
+      setAttributes([name: value], range: range)
     }
-    
-    public func setAttributes(_ sources: MutableAttributeType...) {
-        sources.forEach {
-            guard case .source(let name, let value, let range) = $0 else {
-                return
-            }
-            removeAttribute(name, range: range)
-            setAttributes([name: value], range: range)
-        }
-    }
+  }
 }

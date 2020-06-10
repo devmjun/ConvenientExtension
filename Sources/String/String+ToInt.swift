@@ -9,12 +9,12 @@
 import UIKit
 
 extension String {
-    /// return stringNumber "123456"
-    var stringNumber: String? {
-        return self.filter { "0123456789".contains($0) }
-    }
-    
-    var toInt: Int? {
-        return Int(self)
-    }
+  /// return stringNumber "123456"
+  var stringNumber: String? {
+    return self.filter { "0123456789".contains($0) }
+  }
+  
+  var toInt: Int? {
+    return Int(self)
+  }
 }

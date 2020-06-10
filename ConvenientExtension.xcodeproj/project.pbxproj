@@ -48,6 +48,7 @@
 		048D89FC220179BA003C98B3 /* String+HandyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D89FB220179BA003C98B3 /* String+HandyExtension.swift */; };
 		048D89FF22017A60003C98B3 /* Character+Ascii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D89FE22017A60003C98B3 /* Character+Ascii.swift */; };
 		048D8A0222017ABA003C98B3 /* Int+HandyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D8A0122017ABA003C98B3 /* Int+HandyExtension.swift */; };
+		04B7522D2490F6B9008F83FE /* NumberFromTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7522C2490F6B9008F83FE /* NumberFromTo.swift */; };
 		04C54D992449A591001FF33D /* UIViewController+addChilds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C54D982449A591001FF33D /* UIViewController+addChilds.swift */; };
 		04EAF59222436C040085783D /* String+ToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAF59122436C040085783D /* String+ToInt.swift */; };
 		04EAF59522436C990085783D /* KeywordObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAF59422436C990085783D /* KeywordObserver.swift */; };
@@ -100,6 +101,7 @@
 		048D89FB220179BA003C98B3 /* String+HandyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HandyExtension.swift"; sourceTree = "<group>"; };
 		048D89FE22017A60003C98B3 /* Character+Ascii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+Ascii.swift"; sourceTree = "<group>"; };
 		048D8A0122017ABA003C98B3 /* Int+HandyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+HandyExtension.swift"; sourceTree = "<group>"; };
+		04B7522C2490F6B9008F83FE /* NumberFromTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFromTo.swift; sourceTree = "<group>"; };
 		04C54D982449A591001FF33D /* UIViewController+addChilds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+addChilds.swift"; sourceTree = "<group>"; };
 		04EAF59122436C040085783D /* String+ToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ToInt.swift"; sourceTree = "<group>"; };
 		04EAF59422436C990085783D /* KeywordObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordObserver.swift; sourceTree = "<group>"; };
@@ -326,6 +328,7 @@
 				048D89DD220175CC003C98B3 /* CGFloat+variationIn.swift */,
 				04819F7922B8881300A1BCF4 /* CGFlat+Rounded.swift */,
 				044BEB7422BB251600474A70 /* Scalable+CGFloat+Int.swift */,
+				04B7522C2490F6B9008F83FE /* NumberFromTo.swift */,
 			);
 			path = CGFloat;
 			sourceTree = "<group>";
@@ -535,6 +538,7 @@
 				044696D8246BBB4D00447BCE /* CGColor+UIColor.swift in Sources */,
 				048D89BF220173F4003C98B3 /* CALayer+setBorder.swift in Sources */,
 				048D89E722017738003C98B3 /* UIFont+Traits.swift in Sources */,
+				04B7522D2490F6B9008F83FE /* NumberFromTo.swift in Sources */,
 				048D89BA22017374003C98B3 /* UIButton+sugar+setup.swift in Sources */,
 				048D89D922017594003C98B3 /* UICollectionView+Set.swift in Sources */,
 				048D89F8220178FC003C98B3 /* Optional+Unwap.swift in Sources */,

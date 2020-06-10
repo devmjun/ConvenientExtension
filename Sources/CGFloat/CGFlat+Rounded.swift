@@ -9,9 +9,9 @@
 import UIKit
 
 public extension CGFloat {
-    
-    /// wrapped CGFloat().rouded() method
-    var r: CGFloat {
-        return self.rounded()
-    }
+  
+  /// wrapped CGFloat().rouded() method
+  var r: CGFloat {
+    return self.rounded()
+  }
 }

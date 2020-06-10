@@ -9,10 +9,10 @@
 import UIKit
 
 public extension Array {
-    static func *(lhs: Array<Element>, rhs: Int) -> Array<Element> {
-        var copy = Array<Element>()
-        (0..<rhs).forEach { _ in copy += lhs }
-        return copy
-    }
+  static func *(lhs: Array<Element>, rhs: Int) -> Array<Element> {
+    var copy = Array<Element>()
+    (0..<rhs).forEach { _ in copy += lhs }
+    return copy
+  }
 }
 

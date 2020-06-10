@@ -9,16 +9,16 @@
 import UIKit
 
 extension UIScreen {
-    public static var mainSize: CGSize {
-        return UIScreen.main.bounds.size
-    }
-    public static var mainWidth: CGFloat {
-        return UIScreen.main.bounds.width
-    }
-    public static var mainHeight: CGFloat {
-        return UIScreen.main.bounds.height
-    }
-    public static var mainbounds: CGRect {
-        return UIScreen.main.bounds
-    }
+  public static var mainSize: CGSize {
+    return UIScreen.main.bounds.size
+  }
+  public static var mainWidth: CGFloat {
+    return UIScreen.main.bounds.width
+  }
+  public static var mainHeight: CGFloat {
+    return UIScreen.main.bounds.height
+  }
+  public static var mainbounds: CGRect {
+    return UIScreen.main.bounds
+  }
 }

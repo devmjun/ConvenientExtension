@@ -7,11 +7,11 @@
 //
 
 extension UICollectionView {
-    /**
-     This CollectionView has to use Autolayout
-     */
-    public convenience init(collectionViewLayout: UICollectionViewLayout) {
-        self.init(frame: .zero, collectionViewLayout: collectionViewLayout)
-    }
+  /**
+   This CollectionView has to use Autolayout
+   */
+  public convenience init(collectionViewLayout: UICollectionViewLayout) {
+    self.init(frame: .zero, collectionViewLayout: collectionViewLayout)
+  }
 }
 

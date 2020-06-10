@@ -9,19 +9,19 @@
 import UIKit
 
 extension NSLayoutConstraint {
-    public func active() -> Self {
-        self.isActive = true
-        return self
-    }
-    
-    public func increase(constant: CGFloat...) {
-        let total = constant.reduce(0, +)
-        self.constant += total
-    }
-    
-    public func decreases(constant: CGFloat...) {
-        let total = constant.reduce(0, +)
-        self.constant -= total
-    }
+  public func active() -> Self {
+    self.isActive = true
+    return self
+  }
+  
+  public func increase(constant: CGFloat...) {
+    let total = constant.reduce(0, +)
+    self.constant += total
+  }
+  
+  public func decreases(constant: CGFloat...) {
+    let total = constant.reduce(0, +)
+    self.constant -= total
+  }
 }
 

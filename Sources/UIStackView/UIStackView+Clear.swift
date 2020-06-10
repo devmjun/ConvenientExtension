@@ -10,10 +10,10 @@ import UIKit
 
 @available(iOS 9.0, *)
 extension UIStackView {
-    public func clearSubviews() {
-        self.clearsContextBeforeDrawing = true
-        self.subviews.forEach { $0.removeFromSuperview() }
-        self.arrangedSubviews.forEach { $0.removeFromSuperview() }
-    }
+  public func clearSubviews() {
+    self.clearsContextBeforeDrawing = true
+    self.subviews.forEach { $0.removeFromSuperview() }
+    self.arrangedSubviews.forEach { $0.removeFromSuperview() }
+  }
 }
 

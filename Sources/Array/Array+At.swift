@@ -9,11 +9,11 @@
 import Foundation
 
 extension Array {
-    public func at(_ index: Int?) -> Element? {
-        if let index = index, index >= 0 && index < endIndex {
-            return self[index]
-        }else {
-            return nil
-        }
+  public func at(_ index: Int?) -> Element? {
+    if let index = index, index >= 0 && index < endIndex {
+      return self[index]
+    }else {
+      return nil
     }
+  }
 }

@@ -8,8 +8,8 @@
 
 import UIKit
 extension Double {
-    public func formattedString() -> String {
-        return String(format: "%.2f", self)
-    }
+  public func formattedString() -> String {
+    return String(format: "%.2f", self)
+  }
 }
 

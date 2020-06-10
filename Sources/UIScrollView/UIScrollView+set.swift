@@ -9,12 +9,12 @@
 import UIKit
 
 extension UIScrollView {
-    public func set(bounces: Bool, directionalLock: Bool, showsHorizontalIndicator: Bool, showsVerticalIndicator: Bool, isPaging: Bool) {
-        self.bounces = bounces
-        self.isDirectionalLockEnabled = directionalLock
-        self.showsHorizontalScrollIndicator = showsHorizontalIndicator
-        self.showsVerticalScrollIndicator = showsVerticalIndicator
-        self.isPagingEnabled = isPaging
-    }
+  public func set(bounces: Bool, directionalLock: Bool, showsHorizontalIndicator: Bool, showsVerticalIndicator: Bool, isPaging: Bool) {
+    self.bounces = bounces
+    self.isDirectionalLockEnabled = directionalLock
+    self.showsHorizontalScrollIndicator = showsHorizontalIndicator
+    self.showsVerticalScrollIndicator = showsVerticalIndicator
+    self.isPagingEnabled = isPaging
+  }
 }
 

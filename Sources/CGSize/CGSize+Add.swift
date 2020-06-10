@@ -9,11 +9,11 @@
 import UIKit
 
 extension CGSize {
-    public func add(height: CGFloat) -> CGSize {
-        return CGSize(width: self.width, height: self.height + height)
-    }
-    public func add(width: CGFloat) -> CGSize {
-        return CGSize(width: self.width + width, height: self.height)
-    }
+  public func add(height: CGFloat) -> CGSize {
+    return CGSize(width: self.width, height: self.height + height)
+  }
+  public func add(width: CGFloat) -> CGSize {
+    return CGSize(width: self.width + width, height: self.height)
+  }
 }
 

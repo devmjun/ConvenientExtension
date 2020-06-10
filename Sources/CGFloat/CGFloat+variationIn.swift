@@ -9,14 +9,14 @@
 import UIKit
 
 extension CGFloat {
-    public mutating func increases(_ value: CGFloat...) {
-        let total = value.reduce(0, +)
-        self += total
-    }
-    
-    public mutating func decreases(_ value: CGFloat...) {
-        let total = value.reduce(0, +)
-        self -= total
-    }
+  public mutating func increases(_ value: CGFloat...) {
+    let total = value.reduce(0, +)
+    self += total
+  }
+  
+  public mutating func decreases(_ value: CGFloat...) {
+    let total = value.reduce(0, +)
+    self -= total
+  }
 }
 

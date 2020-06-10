@@ -9,9 +9,13 @@
 import UIKit
 
 extension CALayer {
-    public func setBorder(_ color: CGColor, width: CGFloat, cornerRadius: CGFloat = 0) {
-        borderColor = color
-        borderWidth = width
-        self.cornerRadius = cornerRadius
-    }
+  public func setBorder(
+    _ color: CGColor,
+    width: CGFloat,
+    cornerRadius: CGFloat = 0
+  ) {
+    borderColor = color
+    borderWidth = width
+    self.cornerRadius = cornerRadius
+  }
 }

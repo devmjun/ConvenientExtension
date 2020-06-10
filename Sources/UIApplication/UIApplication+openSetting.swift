@@ -9,16 +9,16 @@
 import Foundation
 
 extension UIApplication {
-    public func openSettings() {
-        guard let settingURL = URL(string: UIApplication.openSettingsURLString) else {
-            return
-        }
-        if #available(iOS 10.0, *) {
-            self.open(settingURL, options: [:], completionHandler: nil)
-        } else {
-            // Fallback on earlier versions
-            self.openURL(settingURL)
-        }
+  public func openSettings() {
+    guard let settingURL = URL(string: UIApplication.openSettingsURLString) else {
+      return
     }
+    if #available(iOS 10.0, *) {
+      self.open(settingURL, options: [:], completionHandler: nil)
+    } else {
+      // Fallback on earlier versions
+      self.openURL(settingURL)
+    }
+  }
 }
 

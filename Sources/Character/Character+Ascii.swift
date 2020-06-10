@@ -9,10 +9,10 @@
 import Foundation
 
 extension Character {
-    
-    /// Return asciiValue if it is ASCII or nil
-    public var asciiValue: UInt32? {
-        guard let unicode = unicodeScalars.first, unicode.isASCII else { return nil }
-        return unicode.value
-    }
+  
+  /// Return asciiValue if it is ASCII or nil
+  public var asciiValue: UInt32? {
+    guard let unicode = unicodeScalars.first, unicode.isASCII else { return nil }
+    return unicode.value
+  }
 }

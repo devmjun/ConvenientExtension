@@ -8,11 +8,11 @@
 import UIKit
 
 extension UINavigationController {
-    public func setTransparent(_ is: Bool, navigationBarHidden: Bool = false) {
-        setNavigationBarHidden(navigationBarHidden, animated: false)
-        navigationBar.setBackgroundImage(`is` ? UIImage() : nil, for: .default)
-        navigationBar.shadowImage = `is` ? UIImage() : nil
-        navigationBar.isTranslucent = `is`
-    }
+  public func setTransparent(_ is: Bool, navigationBarHidden: Bool = false) {
+    setNavigationBarHidden(navigationBarHidden, animated: false)
+    navigationBar.setBackgroundImage(`is` ? UIImage() : nil, for: .default)
+    navigationBar.shadowImage = `is` ? UIImage() : nil
+    navigationBar.isTranslucent = `is`
+  }
 }
 

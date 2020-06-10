@@ -9,12 +9,12 @@
 import UIKit
 
 extension UICollectionView {
-    public func set(backgroundColor: UIColor, bounces: Bool, paging: Bool, showVerticalIndicator: Bool, showHorizontalIndicator: Bool) {
-        self.backgroundColor = backgroundColor
-        self.bounces = bounces
-        self.isPagingEnabled = paging
-        self.showsVerticalScrollIndicator = showVerticalIndicator
-        self.showsHorizontalScrollIndicator = showHorizontalIndicator
-    }
+  public func set(backgroundColor: UIColor, bounces: Bool, paging: Bool, showVerticalIndicator: Bool, showHorizontalIndicator: Bool) {
+    self.backgroundColor = backgroundColor
+    self.bounces = bounces
+    self.isPagingEnabled = paging
+    self.showsVerticalScrollIndicator = showVerticalIndicator
+    self.showsHorizontalScrollIndicator = showHorizontalIndicator
+  }
 }
 
